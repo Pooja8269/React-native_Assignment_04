@@ -147,12 +147,6 @@ const ComponentStyle = StyleSheet.create({
       alignSelf: 'center',
       padding:20,
   },
-  loader:{
-      flex: 1,
-      justifyContent: "center",
-      alignItems: "center",
-      backgroundColor: "#fff"
-  },
   imageContentStyle: {
       flexDirection: 'column',
       justifyContent: 'space-around',
