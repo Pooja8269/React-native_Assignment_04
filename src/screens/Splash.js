@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { View, Image,Dimensions,ImageBackground } from 'react-native';
+import { View,ImageBackground } from 'react-native';
 import ComponentStyle from './ComponentStyle'
-const { width, height } = Dimensions.get('window');
 
 // Splash screen component
 class Splash extends Component{
