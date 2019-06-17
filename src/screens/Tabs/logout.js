@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import {Text,View,TouchableOpacity,Alert,ImageBackground, Image} from 'react-native';
+import {Text,View,Alert,ImageBackground, Image} from 'react-native';
 import { Button } from '../../common'
 import ComponentStyle from '../ComponentStyle' ;
-import {createStackNavigator, reateMaterialTopTabNavigator, NavigationActions} from 'react-navigation';
 
 // Logout tab
 export default class Logout extends Component {
