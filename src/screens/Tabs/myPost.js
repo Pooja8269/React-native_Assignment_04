@@ -31,7 +31,7 @@ class MyPost extends React.Component {
       })
     }
     // onButtonPress function to add new post
-    onButtonPress = () => {
+    onAddPost = () => {
       if(this.state.title != '' && this.state.discription != ''){
         // Adding post to firebase myPost table
         firebase.database().ref('myPost').push(
@@ -80,7 +80,7 @@ class MyPost extends React.Component {
                   onChangeText={(discription) => this.setState({ discription })}
                 />
                 <View style={{ flexDirection: 'row'}}>
-                  <DialogBoxBtn onPress={this.onButtonPress.bind(this)} > Post </DialogBoxBtn>
+                  <DialogBoxBtn onPress={this.onAddPost.bind(this)} > Post </DialogBoxBtn>
                   <DialogBoxBtn onPress={this.handleCancle}> Cancle </DialogBoxBtn>
                 </View>
               </Dialog.Container>
