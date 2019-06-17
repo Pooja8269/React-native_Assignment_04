@@ -1,9 +1,6 @@
 import React,{Component} from 'react';
-import {View, Text, Image,Dimensions,TouchableOpacity} from 'react-native';
+import {View, Text} from 'react-native';
 import {CardSection,Card} from '../../common';
-import ComponentStyle from '../ComponentStyle';
-import Icon from 'react-native-vector-icons/FontAwesome';
-import firebase from 'firebase';
 
 // Reusable MyPostData component to display each post 
 const MyPostData = ({data}) => {
